@@ -273,6 +273,11 @@ header {
     display: none;
 }
 
+.darkmode .btn.menu-close {
+    background-color: var(--darkmode-base-color);
+    border-color: var(--darkmode-text-color);
+}
+
 .header__menu.show,
 .btn.menu-close {
     height: 40px;
@@ -472,9 +477,11 @@ header {
 } */
 
 h1 {
-    text-align: left;
-    /* line-height: 1.2; */
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0;
     padding: 1rem 0;
+    text-shadow: -1px -1px 1px rgba(255, 255, 255, .1), 1px 1px 1px rgba(0, 0, 0, .5);
 }
 
 .hero__text {
