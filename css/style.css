@@ -949,6 +949,18 @@ form button:hover {
 
 /* LAPTOP */
 @media only screen and (min-width: 1024px) {
+
+    .menu-responsive,
+    .btn.menu-close {
+        display: none;
+    }
+
+    .header__menu,
+    .header__menu ul {
+        display: flex;
+        flex-direction: row;
+    }
+
     .hero {
         justify-content: center;
         align-self: center;
@@ -977,6 +989,18 @@ form button:hover {
 
 /* DESKTOP */
 @media only screen and (min-width: 1280px) {
+
+    .menu-responsive,
+    .btn.menu-close {
+        display: none;
+    }
+
+    .header__menu,
+    .header__menu ul {
+        display: flex;
+        flex-direction: row;
+    }
+
     .card {
         width: 49%;
     }
